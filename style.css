@@ -1,3 +1,11 @@
-body {
+@charset "utf-8";
 
+body{background-color:indigo}
+/* CSS Document */
+h1{
+	color:lavender;
+		text-shadow: 4px 4px 10px aqua;font-size: 70px;
+}
+img {
+	width: 300px
 }
