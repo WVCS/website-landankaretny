@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-body{background-color:indigo}
+body{background-color:lightblue}
 /* CSS Document */
 h1{
-	color:lavender;
+	color:lightblue;
 		text-shadow: 4px 4px 10px aqua;font-size: 70px;
 }
 img {
