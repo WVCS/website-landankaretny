@@ -1,13 +1,13 @@
 @charset "utf-8";
 
-body{background-color:lightblue}
+body{background-color:lightblue:}
 /* CSS Document */
 h1{
 	color:lightblue;
 		text-shadow: 4px 4px 10px aqua;font-size: 70px;
 }
 img {
-	width: 300px
+	width: 300px:
 }
 /* Basic Reset */
 * {
