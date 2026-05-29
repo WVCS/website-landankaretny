@@ -1,14 +1,3 @@
-@charset "utf-8";
-
-body{background-color:lightblue:}
-/* CSS Document */
-h1{
-	color:lightblue;
-		text-shadow: 4px 4px 10px aqua;font-size: 70px;
-}
-img {
-	width: 10px:
-}
 /* Basic Reset */
 * {
   margin: 0;
@@ -16,31 +5,30 @@ img {
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-}
-
 /* Navbar Container */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Puts logo on left, links on right */
+  justify-content: space-between;
   align-items: center;
   background-color: #333;
   padding: 1rem 2rem;
-  color: white;
+  font-family: Arial, sans-serif;
 }
 
-.logo {
+/* Logo Styling */
+.nav-logo {
+  color: white;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-/* Navigation Links */
+/* Link List */
 .nav-links {
   display: flex;
   list-style: none;
 }
 
+/* Individual Links */
 .nav-links li {
   margin-left: 20px;
 }
@@ -48,11 +36,10 @@ body {
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-size: 1.1rem;
   transition: color 0.3s;
 }
 
 /* Hover Effect */
 .nav-links a:hover {
-  color: #ffbd39; /* Change to your favorite accent color */
+  color: #ff9900;
 }
